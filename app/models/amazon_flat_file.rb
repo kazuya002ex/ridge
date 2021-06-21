@@ -1,0 +1,2 @@
+class AmazonFlatFile < ApplicationRecord
+end
