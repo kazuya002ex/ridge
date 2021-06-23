@@ -29,3 +29,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Add Gem
 gem 'ridgepole'
+gem 'font-awesome-rails'
+gem 'font-awesome-sass'
