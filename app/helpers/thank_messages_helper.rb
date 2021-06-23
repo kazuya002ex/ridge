@@ -1,0 +1,2 @@
+module ThankMessagesHelper
+end

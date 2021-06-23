@@ -1,0 +1,2 @@
+class ThankMessagesController < ApplicationController
+end
