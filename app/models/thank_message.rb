@@ -1,0 +1,1 @@
+class ThankMessage < ApplicationRecord
