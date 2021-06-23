@@ -60,6 +60,7 @@ GEM
       minitest (>= 5.1)
       tzinfo (~> 2.0)
       zeitwerk (~> 2.3)
+    bcrypt (3.1.16)
     bindex (0.8.1)
     bootsnap (1.7.5)
       msgpack (~> 1.0)
@@ -70,6 +71,10 @@ GEM
     diffy (3.4.0)
     erubi (1.10.0)
     ffi (1.15.3)
+    font-awesome-rails (4.7.0.7)
+      railties (>= 3.2, < 7)
+    font-awesome-sass (5.15.1)
+      sassc (>= 1.11)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     i18n (1.8.10)
@@ -183,8 +188,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bcrypt (~> 3.1.7)
   bootsnap (>= 1.4.4)
   byebug
+  font-awesome-rails
+  font-awesome-sass
   jbuilder (~> 2.7)
   listen (~> 3.3)
   mysql2 (~> 0.5)
